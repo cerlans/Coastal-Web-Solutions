@@ -1,0 +1,71 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+  line-height: 1.7;
+}
+:root {
+  --marginSeperators: 2rem;
+}
+svg {
+ max-width:100%;
+
+}
+ul {
+	list-style-type: none;
+}
+
+img {
+	width: 100%;
+}
+
+header {
+	color: white;
+	background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: auto;
+ 
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.6rem;
+  
+}
+
+nav div {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	text-align: right;
+  font-weight: 700;
+}
+nav div .droplet{
+  margin-right:0.5rem;
+}
+
+nav i {
+	font-size: 1.7rem;
+}
+
+header .heroText {
+	margin-top: var(--marginSeperators);
+	padding: 1rem;
+}
+header .heroText h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight:900;
+  padding-bottom:2rem;
+}
+header  svg{
+  margin-top:4rem !important;
+}
