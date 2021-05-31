@@ -18,10 +18,13 @@ svg {
 ul {
 	list-style-type: none;
 }
-
-img {
-	width: 100%;
+/*Generic h2 header class*/
+.subHeaders{
+  	font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom:var(--marginSeperators);
 }
+
 
 header {
 	color: white;
@@ -34,12 +37,10 @@ header {
 	height: auto;
  
 }
-
 header nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 0.6rem;
-  
+	padding: 0.6rem; 
 }
 
 nav div {
@@ -60,6 +61,7 @@ header .heroText {
 	margin-top: var(--marginSeperators);
 	padding: 1rem;
 }
+/* tailwind 4xl font-size */
 header .heroText h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -68,4 +70,8 @@ header .heroText h1 {
 }
 header  svg{
   margin-top:4rem !important;
+}
+main .whatWeDo{
+  margin-top:var(--marginSeperators);
+  text-align:center;
 }
