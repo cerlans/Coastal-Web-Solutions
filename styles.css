@@ -74,6 +74,20 @@ header .heroText {
 	margin-top: var(--marginSeperators);
 	padding: 1rem;
 }
+header button{
+  margin-top:var(--marginSeperators);
+ 	background: white;
+  cursor:pointer;
+  border: none;
+  border-radius: 0.5rem;
+  color:#2741b7;
+  padding: 1rem;
+  text-align: center;
+  font-weight:600;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 
 /* tailwind 4xl font-size */
