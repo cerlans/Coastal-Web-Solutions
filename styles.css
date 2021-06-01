@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
@@ -29,9 +30,12 @@ ul {
 .subHeaders {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
+  text-align:center;
 	margin-bottom: var(--marginSeperators);
 }
-
+.subHeaders span {
+  color:#1488cc;
+}
 header {
 	color: white;
 	background: #1488CC;
@@ -54,7 +58,7 @@ nav div {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 	text-align: right;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 nav div .droplet {
@@ -63,6 +67,7 @@ nav div .droplet {
 
 nav i {
 	font-size: 1.7rem;
+  margin-right:.5rem;
 }
 
 header .heroText {
@@ -87,20 +92,43 @@ header svg {
 .whatWeDo {
 	margin-top: var(--marginSeperators);
 	text-align: left;
-	padding: 1rem;
+	padding:1rem;
 }
-
-.whatWeDo h2 {
-	text-align: center;
+.whatWeDo h2::after {
+   font-family: "Font Awesome 5 Free";
+   content: "\f5fc";
+   display: block;
+   padding-right: 3px;
+   color:#1488CC;
+   margin-top:1rem;
+   font-weight: 900;
 }
-
-.whatWeDo .services {
-	margin-top: var(--marginSeperators);
-	text-align: center;
-}
-.whatWeDo .services .item{
+.parent {
   margin-top:var(--marginSeperators);
-  margin-bottom: var(--marginSeperators);
+}
+.item {
+  background:#fafafb;
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding:2rem;
+  margin-bottom:2rem;
+  width:100%;
+}
+.item svg {
+  
+  width:100px;
+
+}
+.item .photo {
+  margin-bottom:1rem;
+}
+.item .photo img {
+  width:70px; 
+
+}
+.item h3 {
+  color:#1488cc;
+  margin-bottom:.5rem;
+ 
 }
 
 
@@ -119,4 +147,77 @@ header svg {
 }
 .aboutUs h2 {
   font-weight:800;
+}
+
+#portfolio h2::after {
+   font-family: "Font Awesome 5 Free";
+   content: "\f518";
+   display: block;
+   padding-right: 3px;
+   color:#1488CC;
+   margin-top:1rem;
+   font-weight: 900;
+}
+#portfolio button {
+  margin-top:var(--marginSeperators);
+ 	background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor:pointer;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#portfolio .projectList {
+  padding:2rem;
+}
+#portfolio .projectList .project {
+margin-bottom:var(--marginSeperators);
+padding:2rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+border-bottom:3px solid  #1488CC;;
+}
+
+footer {
+  height:auto;
+  background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+  padding:2rem;
+}
+footer h2 {
+  font-weight:800;
+  text-align: left !important;
+}
+footer h3 {
+  font-weight:700;
+  	font-size: 1.5rem;
+line-height: 2rem;
+}
+footer h2 i {
+  margin-right:1rem;
+
+}
+footer div {
+  margin-top:var(--marginSeperators);
+  margin-bottom: var(--marginSeperators);
+}
+
+
+footer li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
