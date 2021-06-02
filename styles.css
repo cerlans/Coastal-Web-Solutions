@@ -51,6 +51,7 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 0.6rem;
+  padding-top:2rem;
 }
 
 nav div {
@@ -62,12 +63,17 @@ nav div {
 }
 
 nav div .droplet {
-	margin-right: 0.5rem;
+	margin-right: .5rem;
+
 }
 
 nav i {
 	font-size: 1.7rem;
-  margin-right:.5rem;
+ 
+}
+
+header{
+  padding-bottom:4rem;
 }
 
 header .heroText {
@@ -88,15 +94,22 @@ header button{
   display: inline-block;
   font-size: 16px;
 }
+header img {
+  margin-top:4rem;
+}
 
 
 /* tailwind 4xl font-size */
 
 header h1 {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
-	font-weight: 900;
-	padding-bottom: 2rem;
+	font-size: 3.75rem;
+  line-height: 1;
+  padding-bottom:2rem;
+}
+header h1 span {
+  color:#00c3ff;
+ 	font-size: 3.75rem;
+  line-height: 1;
 }
 
 header svg {
@@ -193,6 +206,7 @@ header svg {
 #portfolio .projectList {
   padding:2rem;
 }
+
 #portfolio .projectList .project {
 margin-bottom:var(--marginSeperators);
 padding:2rem;
@@ -203,7 +217,7 @@ border-bottom:3px solid  #1488CC;;
 
 footer {
   height:auto;
-  background: #1488CC;
+   	background: #1488CC;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
 	/* Chrome 10-25, Safari 5.1-6 */
@@ -218,8 +232,8 @@ footer h2 {
 }
 footer h3 {
   font-weight:700;
-  	font-size: 1.5rem;
-line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 footer h2 i {
   margin-right:1rem;
@@ -234,4 +248,31 @@ footer div {
 footer li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+
+@media (min-width:574px)  {
+  .whatWeDo .parent {
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    max-width:574px;
+  }
+  .whatWeDo .parent .item{
+    flex-basis:50%;
+    margin-bottom:var(--marginSeperators)
+  }
+  footer .footerFlex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width:580px;
+  }
+  footer .footerFlex div {
+    flex:1;
+    flex-basis:50%;
+    width:50%;
+    padding-left:2rem;
+    padding-right:2rem;
+  }
 }
