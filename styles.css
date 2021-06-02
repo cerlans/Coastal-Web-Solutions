@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
@@ -30,12 +32,14 @@ ul {
 .subHeaders {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
-  text-align:center;
+	text-align: center;
 	margin-bottom: var(--marginSeperators);
 }
+
 .subHeaders span {
-  color:#1488cc;
+	color: #1488cc;
 }
+
 header {
 	color: white;
 	background: #1488CC;
@@ -51,11 +55,16 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 0.6rem;
-  padding-top:2rem;
+	padding-top: 2rem;
+}
+
+header .headWrap {
+	margin: 0 auto;
+	max-width: 580px;
 }
 
 nav div {
-  cursor:pointer;
+	cursor: pointer;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 	text-align: right;
@@ -64,38 +73,38 @@ nav div {
 
 nav div .droplet {
 	margin-right: .5rem;
-
 }
 
 nav i {
 	font-size: 1.7rem;
- 
 }
 
-header{
-  padding-bottom:4rem;
+header {
+	padding-bottom: 4rem;
 }
 
 header .heroText {
 	margin-top: var(--marginSeperators);
 	padding: 1rem;
 }
-header button{
-  margin-top:var(--marginSeperators);
- 	background: white;
-  cursor:pointer;
-  border: none;
-  border-radius: 0.5rem;
-  color:#2741b7;
-  padding: 1rem;
-  text-align: center;
-  font-weight:600;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+
+header button {
+	margin-top: var(--marginSeperators);
+	background: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 0.5rem;
+	color: #2741b7;
+	padding: 1rem;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
+
 header img {
-  margin-top:4rem;
+	margin-top: 4rem;
 }
 
 
@@ -103,70 +112,76 @@ header img {
 
 header h1 {
 	font-size: 3.75rem;
-  line-height: 1;
-  padding-bottom:2rem;
+	line-height: 1;
+	padding-bottom: 2rem;
 }
+
 header h1 span {
-  color:#00c3ff;
- 	font-size: 3.75rem;
-  line-height: 1;
+	color: #00c3ff;
+	font-size: 3.75rem;
+	line-height: 1;
 }
 
 header svg {
 	margin-top: 4rem !important;
 }
 
+main {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
 .whatWeDo {
 	margin-top: var(--marginSeperators);
 	text-align: left;
-	padding:1rem;
-  padding-bottom:2rem;
+	padding: 1rem;
+	padding-bottom: 2rem;
 }
-.whatWeDo .offerHeader{
-  margin-bottom:var(--marginSeperators);
-  max-width:580px;
-  margin:0 auto;
-  border:1px solid red;
 
+.whatWeDo .offerHeader {
+	margin-bottom: 4rem !important;
+	max-width: 660px;
+	margin: 0 auto;
 }
+
 .whatWeDo h2::after {
-   font-family: "Font Awesome 5 Free";
-   content: "\f5fc";
-   display: block;
-   padding-right: 3px;
-   color:#1488CC;
-   margin-top:1rem;
-   font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	content: "\f5fc";
+	display: block;
+	padding-right: 3px;
+	color: #1488CC;
+	margin-top: 1rem;
+	font-weight: 900;
 }
+
 .parent {
-  margin-top:var(--marginSeperators);
+	margin-top: var(--marginSeperators);
 }
+
 .item {
-  background:#fafafb;
- box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  padding:2rem;
-  margin-bottom:2rem;
-  width:100%;
+	background: #fafafb;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	width: 100%;
 }
+
 .item svg {
-  
-  width:100px;
-
+	width: 100px;
 }
+
 .item .photo {
-  margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
+
 .item .photo img {
-  width:70px; 
-
+	width: 70px;
 }
+
 .item h3 {
-  color:#1488cc;
-  margin-bottom:.5rem;
- 
+	color: #1488cc;
+	margin-bottom: .5rem;
 }
-
-
 
 .aboutUs {
 	background: #1488CC;
@@ -175,113 +190,165 @@ header svg {
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color:white;
-  text-align:left;
+	color: white;
+	text-align: left;
 	height: auto;
-  padding:2rem;
+	padding: 2rem;
 }
+
 .aboutUs h2 {
-  font-weight:800;
+	font-weight: 800;
 }
 
 #portfolio h2::after {
-   font-family: "Font Awesome 5 Free";
-   content: "\f518";
-   display: block;
-   padding-right: 3px;
-   color:#1488CC;
-   margin-top:1rem;
-   font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	content: "\f518";
+	display: block;
+	padding-right: 3px;
+	color: #1488CC;
+	margin-top: 1rem;
+	font-weight: 900;
 }
+
 #portfolio button {
-  margin-top:var(--marginSeperators);
- 	background: #1488CC;
+	margin-top: var(--marginSeperators);
+	background: #1488CC;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  cursor:pointer;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-transform: uppercase; 
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
+
 #portfolio .projectList {
-  padding:2rem;
+	padding: 2rem;
 }
 
 #portfolio .projectList .project {
-margin-bottom:var(--marginSeperators);
-padding:2rem;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin-bottom: var(--marginSeperators);
+	padding: 1.4rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-bottom: 3px solid #1488CC;
+	
+}
 
-border-bottom:3px solid  #1488CC;;
+#portfolio .projectImage {
+	margin-bottom: var(--marginSeperators);
+}
+
+#portfolio .project img {
+	width: 100%;
+	height: 250px;
 }
 
 footer {
-  height:auto;
-   	background: #1488CC;
+	height: auto;
+	background: #1488CC;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color:white;
-  padding:2rem;
+	color: white;
+	padding: 2rem;
 }
+
 footer h2 {
-  font-weight:800;
-  text-align: left !important;
+	font-weight: 800;
+	text-align: left !important;
 }
+
 footer h3 {
-  font-weight:700;
-  font-size: 1.5rem;
-  line-height: 2rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
+
 footer h2 i {
-  margin-right:1rem;
-
+	margin-right: 1rem;
 }
+
 footer div {
-  margin-top:var(--marginSeperators);
-  margin-bottom: var(--marginSeperators);
+	margin-top: var(--marginSeperators);
+	margin-bottom: var(--marginSeperators);
 }
-
 
 footer li {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
+@media (min-width:574px) {
+	.whatWeDo .offerHeader {
+		text-align: center;
+	}
+	.whatWeDo .parent {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		max-width: 660px;
+	}
+	.whatWeDo .parent .item {
+		flex-basis: 50%;
+		margin-bottom: var(--marginSeperators)
+	}
+  #portfolio .projectList {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+    max-width: 660px;
+    margin:0 auto;
+  }
+	#portfolio .projectList .project {
+		flex-basis:47%;
+    max-width:47%;
+    margin: auto;
+    margin-bottom:2rem;
+    padding:0px;
+	}
+  .projectList .projectDescription {
+    padding:1rem;
+  }
+	footer .footerFlex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		max-width: 660px;
+		margin: 0 auto;
+	}
+	footer .footerFlex div {
+		flex: 1;
+		flex-basis: 50%;
+		width: 50%;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+@media (min-width:1025px) { 
+  header img {
+    margin:0px;
+  }
+  header .headWrap {
+  max-width: 1200px;
+  margin:  auto; 
+ }
+  header .heroText {
+    display:flex !important;
+    		align-items: center;
 
-@media (min-width:574px)  {
-  .whatWeDo .parent {
-    display:flex;
-    flex-wrap:wrap;
-    margin: 0 auto;
-    max-width:574px;
+    
   }
-  .whatWeDo .parent .item{
-    flex-basis:50%;
-    margin-bottom:var(--marginSeperators)
-  }
-  footer .footerFlex{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    max-width:580px;
-    margin: 0 auto;
-  }
-  footer .footerFlex div {
+  header .heroText div {
     flex:1;
-    flex-basis:50%;
-    width:50%;
-    padding-left:2rem;
-    padding-right:2rem;
   }
-}
+ }
