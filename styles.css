@@ -120,6 +120,14 @@ header svg {
 	margin-top: var(--marginSeperators);
 	text-align: left;
 	padding:1rem;
+  padding-bottom:2rem;
+}
+.whatWeDo .offerHeader{
+  margin-bottom:var(--marginSeperators);
+  max-width:580px;
+  margin:0 auto;
+  border:1px solid red;
+
 }
 .whatWeDo h2::after {
    font-family: "Font Awesome 5 Free";
@@ -267,6 +275,7 @@ footer li {
     flex-wrap:wrap;
     justify-content: space-between;
     max-width:580px;
+    margin: 0 auto;
   }
   footer .footerFlex div {
     flex:1;
