@@ -24,9 +24,16 @@ img {
 
 ul {
 	list-style-type: none;
+  padding:0px;
 }
 
-
+#hiddenMenu {
+  border:1px solid white;
+  background:white;
+  color:black;
+  height:50vh;
+  z-index:3;
+}
 /*Generic h2 header class*/
 
 .subHeaders {
@@ -65,8 +72,8 @@ header .headWrap {
 
 nav div {
 	cursor: pointer;
-	font-size: 1.125rem;
-	line-height: 1.75rem;
+	font-size: 1.25rem;
+  line-height: 1.75rem;
 	text-align: right;
 	font-weight: 800;
 }
