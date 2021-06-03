@@ -26,8 +26,143 @@ ul {
 	list-style-type: none;
   padding:0px;
 }
+#cards {
+  color:black;
+  text-align: center;
+  padding:2rem;
+}
 
+#cards .pricingHeader h2 {
+ 	font-size: 1.875rem;
+	line-height: 2.25rem;
+	text-align: center;
+  color:black;
+	margin-bottom: var(--marginSeperators);
+}
+
+#cards .pricingHeader h2::after {
+  content: 'prices for everyone';
+  display: block;
+  font-size: 0.995rem;
+  line-height: 1.25rem;
+  letter-spacing: 2px;
+  margin-bottom: var(--marginSeperators);
+  background: #56ccf2; /* fallback for old browsers */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#cards .singleContainer {
+  margin-top: var(--marginSeperators);
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: 4px solid #1488CC ;
+  color: black;
+ 
+  line-height: 1.6;
+  height: auto;
+  margin-bottom: 4rem;
+  max-width:450px;
+  margin: 0 auto;
+  margin-bottom:var(--marginSeperators);
+}
+
+.singleContainer .priceTier {
+  background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.singleContainer .priceContent {
+  padding: 1rem;
+}
+
+.singleContainer .priceContent .priceHeadline {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+
+.singleContainer .priceNumber {
+  font-size: 4rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.singleContainer .priceNumber::before {
+  content: '$';
+  font-size: 1.2rem;
+  padding: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  /* left:55; */
+  transform: translateX(-70%);
+  position: absolute;
+}
+
+.singleContainer .priceNumber::after {
+  content: '/mo';
+  font-size: 1.2rem;
+  padding: 5px;
+  height: 10px;
+}
+
+.singleContainer button {
+  margin-top: 2rem;
+  	background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor:pointer;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  font-weight:700;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+.singleContainer .features {
+  text-align: left;
+  margin-top:1rem;
+  padding: 1.2rem;
+}
+
+.singleContainer ul li {
+ margin-bottom:.5rem;
+ 
+}
+.singleContainer ul li::before {
+ 	font-family: "Font Awesome 5 Free";
+	content: "\f00c";
+	display: inline-block;
+	margin-right: 1rem;
+	color: #1488CC;
+	margin-top: 1rem;
+	font-weight: 900;
+  font-size:1.5rem;
+}
+.singleContainer i {
+  color: #3b82f6;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+}
 #hiddenMenu {
+ 
   height: 100%;
   width: 30%;
   position: fixed;
@@ -35,21 +170,30 @@ ul {
   top: 0;
   right:0;
   background-color: white;
-  color:black;
+  color:gray;
+  font-weight:500;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
-  
+  padding-top:2rem;
 }
 #hiddenMenu ul {
   display:flex;
   flex-direction: column;
-  border:1px solid red;
   justify-content: center;
   text-align:center;
 }
+#hiddenMenu ul li:first-child{
+  color:#00c3ff;
+  margin-right:1rem;
+  text-align:right;
+}
 #hiddenMenu li {
-  border:1px solid red;
+  padding:.5rem;
+  margin-bottom:var(--marginSeperators);
+  transition: 0.2s;
+}
+#hiddenMenu li:hover{
+  color:#00c3ff;
 }
 /*Generic h2 header class*/
 
@@ -341,6 +485,9 @@ footer li {
     padding:0px;
 	}
   .projectList .projectDescription {
+    padding:1rem;
+  }
+  #cards .singleContainer{
     padding:1rem;
   }
 	footer .footerFlex {
