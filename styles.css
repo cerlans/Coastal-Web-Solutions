@@ -28,11 +28,28 @@ ul {
 }
 
 #hiddenMenu {
-  border:1px solid white;
-  background:white;
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right:0;
+  background-color: white;
   color:black;
-  height:50vh;
-  z-index:3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+#hiddenMenu ul {
+  display:flex;
+  flex-direction: column;
+  border:1px solid red;
+  justify-content: center;
+  text-align:center;
+}
+#hiddenMenu li {
+  border:1px solid red;
 }
 /*Generic h2 header class*/
 
