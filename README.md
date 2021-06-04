@@ -1,3 +1,1 @@
-# web-platform-fenwu4
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-fenwu4)
+This is the website that i will be launching for my company, Norwalk, CT
