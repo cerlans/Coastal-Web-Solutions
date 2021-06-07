@@ -451,6 +451,7 @@ footer div {
 }
 
 footer li {
+  cursor:pointer;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
@@ -505,6 +506,22 @@ footer li {
 		padding-right: 2rem;
 	}
 }
+
+@media (min-width:961px)  { 
+  .whatWeDo {
+   max-width:960px; 
+   margin: 0 auto;
+  }
+  .whatWeDo .parent {
+    max-width:inherit;
+  }
+
+  
+  #pricing {
+     max-width:960px; 
+   margin: 0 auto;
+  }
+}
 @media (min-width:1025px) { 
   header img {
     margin:0px;
@@ -523,7 +540,25 @@ footer li {
     flex:1;
   }
 
-
+  .whatWeDo {
+   max-width:1200px; 
+   margin: 0 auto;
+  }
+  .whatWeDo .parent {
+   max-width:inherit;
+   margin: auto;
+  }
+    .whatWeDo .parent .item {
+    flex-basis:40%;
+    max-width:40%;
+    margin:0 auto;
+    margin-bottom:var(--marginSeperators);
+  }
+  
+  #pricing {
+   max-width:1200px; 
+   margin: 0 auto;
+  }
 
 
 
