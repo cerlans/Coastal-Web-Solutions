@@ -1,7 +1,3 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
@@ -9,7 +5,10 @@
 	font-family: sans-serif;
 	line-height: 1.7;
 }
-
+p {
+  color:#8d8d8d;
+  font-size:1.2rem;
+}
 :root {
 	--marginSeperators: 2rem;
 }
@@ -197,14 +196,33 @@ ul {
 /*Generic h2 header class*/
 
 .subHeaders {
-	font-size: 1.875rem;
-	line-height: 2.25rem;
+	font-size: 2.25rem;
+  line-height: 2.5rem;
 	text-align: center;
 	margin-bottom: var(--marginSeperators);
 }
 
 .subHeaders span {
 	color: #1488cc;
+}
+.genericButton{
+	margin-top: var(--marginSeperators);
+	background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5rem;
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 header {
@@ -295,7 +313,7 @@ header svg {
 
 main {
 	margin-top: 4rem;
-	margin-bottom: 4rem;
+
 }
 
 .whatWeDo {
@@ -303,21 +321,36 @@ main {
 	text-align: left;
 	padding: 1rem;
 	padding-bottom: 2rem;
+	max-width: 660px;
+	margin: 0 auto;
 }
+
+.whatWeDo .differentApproach {
+	text-align: left;
+  display:flex;
+  align-items:center;
+}
+.whatWeDo .differentApproach .bulbImage {
+  text-align:right;
+}
+.whatWeDo .differentApproach div {
+  flex:1;
+}
+
 .whatWeDo .differentApproach h2::after {
-  font-family: "Font Awesome 5 Free";
-	content: "\f05a";
+	font-family: "Font Awesome 5 Free";
+	content: "\f0eb";
 	display: block;
 	padding-right: 3px;
 	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
+
+
 .whatWeDo .offerHeader {
-  margin-top:2rem !important;
+	margin-top: 2rem !important;
 	margin-bottom: 4rem !important;
-	max-width: 660px;
-	margin: 0 auto;
 }
 
 .whatWeDo h2::after {
@@ -386,24 +419,6 @@ main {
 	font-weight: 900;
 }
 
-#portfolio button {
-	margin-top: var(--marginSeperators);
-	background: #1488CC;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2B32B2, #1488CC);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	cursor: pointer;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
 
 #portfolio .projectList {
 	padding: 2rem;
@@ -441,6 +456,43 @@ main {
 	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
+}
+
+#pricing .startNow {
+  /* Must be 100% off the screen size, but currently inherits the max width off its parent, cappedd at 1200px*/
+  align-items: center;
+	background: #0c39ae;
+  color:white;
+  display:flex;
+	margin: auto;
+	margin-top: 4rem;
+  max-width:initial !important;
+	padding: 2rem;
+	text-align: left;
+}
+#pricing .startNow div {
+  flex:1;
+  text-align:right;
+}
+
+#pricing .startNow h2 {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+
+#pricing .startNow button {
+	margin-top: var(--marginSeperators);
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 3rem;
+	color: black;
+	cursor: pointer;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 19px;
+  font-weight:700;
+	letter-spacing: 2px;
 }
 
 footer {
@@ -484,15 +536,13 @@ footer li {
 @media (min-width:574px) {
 	header nav {
 		padding: 2rem;
-   
 	}
-  header nav div i {
-		font-size:2.2rem;
-   
+	header nav div i {
+		font-size: 2.2rem;
 	}
-  header nav div {
-    font-size:1.4rem;
-  }
+	header nav div {
+		font-size: 1.4rem;
+	}
 	.whatWeDo .offerHeader {
 		text-align: center;
 	}
@@ -551,13 +601,13 @@ footer li {
 	.whatWeDo .parent {
 		max-width: inherit;
 	}
-  #portfolio .projectList {
-    max-width:1200px;
-  }
-   #portfolio .projectList .project {
-    flex-basis:30%;
-    max-width:30%;
-  }
+	#portfolio .projectList {
+		max-width: 1200px;
+	}
+	#portfolio .projectList .project {
+		flex-basis: 30%;
+		max-width: 30%;
+	}
 	#pricing {
 		max-width: 960px;
 		margin: 0 auto;
@@ -565,10 +615,10 @@ footer li {
 }
 
 @media (min-width:1025px) {
-  header nav {
-    max-width:1300px;
-    margin: 0 auto;
-  }
+	header nav {
+		max-width: 1300px;
+		margin: 0 auto;
+	}
 	header img {
 		margin: 0px;
 	}
@@ -618,12 +668,11 @@ footer li {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-  footer .footerFlex {
-   max-width:1200px;
-  }
-  footer .footerFlex div {
-    flex: 1;
-  }
-
+	footer .footerFlex {
+		max-width: 1200px;
+	}
+	footer .footerFlex div {
+		flex: 1;
+	}
 }
 
