@@ -1,3 +1,5 @@
+
+
 <html>
    <head>
       <meta charset="UTF-8">
@@ -7,32 +9,32 @@
    </head>
    <body>
       <header>
-         <div class='headWrap'>
-            <nav>
-               <div>
-                  <i class="fas fa-tint droplet" ></i>Coastal <span style="font-weight:600;">Web Design</span>
-               </div>
-               <div id='desktopMenu'>
+         <nav>
+            <div>
+               <i class="fas fa-tint droplet" ></i>Coastal <span style="font-weight:600;">Web Design</span>
+            </div>
+            <div id='desktopMenu'>
+               <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>Contact</li>
+               </ul>
+            </div>
+            <div id='burger'>
+               <i class="fas fa-bars"></i>
+               <div id='hiddenMenu' style='display:none'>
                   <ul>
+                     <li id='closeNav'><i class="fas fa-times"></i></li>
                      <li>Home</li>
                      <li>About</li>
                      <li>Services</li>
                      <li>Contact</li>
                   </ul>
                </div>
-               <div id='burger'>
-                  <i class="fas fa-bars"></i>
-                  <div id='hiddenMenu' style='display:none'>
-                     <ul>
-                        <li id='closeNav'><i class="fas fa-times"></i></li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Contact</li>
-                     </ul>
-                  </div>
-               </div>
-            </nav>
+            </div>
+         </nav>
+         <div class='headWrap'>
             <div class='heroText'>
                <div>
                   <h1><span>Hand Coded</span> websites for small business</h1>
@@ -48,6 +50,11 @@
       </header>
       <main>
          <section class='whatWeDo'>
+           <div class='differentApproach'>
+             <h2 class='subHeaders'><span>Different</span> approach</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet diam sit amet metus convallis fermentum. Sed id venenatis mauris. Fusce lacus urna, consectetur a quam vitae, venenatis viverra purus. Cras dapibus lorem sed metus scelerisque, non tincidunt eros posuere. Duis ac metus urna.</p>
+             <img src="https://i.vgy.me/54JUlE.png" alt="54JUlE.png">
+           </div>
             <div class='offerHeader'>
                <h2 class='subHeaders'>
                   What <span>WE</span> offer
@@ -130,20 +137,10 @@
                      <button>Visit Now</button>
                   </div>
                </div>
-               <div class='project'>
-                  <div class='projectImage'>
-                     <img src='https://picsum.photos/seed/picsum/200/300'>
-                  </div>
-                  <div class='projectDescription'>
-                     <h3>Lorem Ipsum</h3>
-                     <p>Fusce vulputate cursus justo, eu consequat arcu euismod nec. In sollicitudin magna quis ante egestas blandit. Etiam condimentum elementum euismod.</p>
-                     <button>Visit Now</button>
-                  </div>
-               </div>
             </div>
          </section>
          <section id='pricing'>
-            <div id='cards' class="wrapper">
+            <div id='cards' >
                <div class='pricingHeader'>
                   <h2 class='subHeaders'>Our <span>Services</span></h2>
                   <p style='color:white;'>A plan for each customer, we match your needs to each off our existing price tiers so it can stay within your budget!</p>
