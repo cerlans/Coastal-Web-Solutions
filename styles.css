@@ -6,7 +6,7 @@
 	line-height: 1.7;
 }
 p {
-  color:#8d8d8d;
+
   font-size:1.2rem;
 }
 :root {
@@ -31,7 +31,11 @@ ul {
 	text-align: center;
 	padding: 2rem;
 }
-
+#test {}
+#test ul li i {
+	color:#1488CC;
+	margin-right:1rem;
+}
 #cards .pricingHeader h2 {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -278,8 +282,8 @@ header button {
 	background: white;
 	cursor: pointer;
 	border: none;
-	border-radius: 0.5rem;
-	color: #2741b7;
+	border-radius:5rem;
+	color:#2a38b4;
 	padding: 1rem;
 	text-align: center;
 	font-weight: 600;
@@ -324,12 +328,14 @@ main {
 	max-width: 660px;
 	margin: 0 auto;
 }
-
+/*
 .whatWeDo .differentApproach {
 	text-align: left;
   display:flex;
   align-items:center;
 }
+*/
+
 .whatWeDo .differentApproach .bulbImage {
   text-align:right;
 }
@@ -345,6 +351,9 @@ main {
 	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
+}
+.whatWeDo .differentApproach h2{
+	text-align:left;
 }
 
 
