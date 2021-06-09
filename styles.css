@@ -1,3 +1,5 @@
+
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -5,10 +7,11 @@
 	font-family: sans-serif;
 	line-height: 1.7;
 }
-p {
 
-  font-size:1.2rem;
+p {
+	font-size: 1.2rem;
 }
+
 :root {
 	--marginSeperators: 2rem;
 }
@@ -31,11 +34,14 @@ ul {
 	text-align: center;
 	padding: 2rem;
 }
+
 #test {}
+
 #test ul li i {
-	color:#1488CC;
-	margin-right:1rem;
+	color: #1488CC;
+	margin-right: 1rem;
 }
+
 #cards .pricingHeader h2 {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -96,13 +102,6 @@ ul {
 	/* left:55; */
 	transform: translateX(-70%);
 	position: absolute;
-}
-
-.singleContainer .priceNumber::after {
-	content: '/mo';
-	font-size: 1.2rem;
-	padding: 5px;
-	height: 10px;
 }
 
 .singleContainer button {
@@ -201,15 +200,16 @@ ul {
 
 .subHeaders {
 	font-size: 2.25rem;
-  line-height: 2.5rem;
-	text-align: center;
+	line-height: 2.5rem;
+	text-align: left;
 	margin-bottom: var(--marginSeperators);
 }
 
 .subHeaders span {
 	color: #1488cc;
 }
-.genericButton{
+
+.genericButton {
 	margin-top: var(--marginSeperators);
 	background: #1488CC;
 	/* fallback for old browsers */
@@ -217,7 +217,7 @@ ul {
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 5rem;
+	border-radius: 5rem;
 	cursor: pointer;
 	border: none;
 	color: white;
@@ -282,14 +282,15 @@ header button {
 	background: white;
 	cursor: pointer;
 	border: none;
-	border-radius:5rem;
-	color:#2a38b4;
+
+	color: #9b8b8b;
 	padding: 1rem;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 800;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
 header img {
@@ -317,7 +318,6 @@ header svg {
 
 main {
 	margin-top: 4rem;
-
 }
 
 .whatWeDo {
@@ -328,6 +328,8 @@ main {
 	max-width: 660px;
 	margin: 0 auto;
 }
+
+
 /*
 .whatWeDo .differentApproach {
 	text-align: left;
@@ -336,11 +338,17 @@ main {
 }
 */
 
-.whatWeDo .differentApproach .bulbImage {
-  text-align:right;
+.whatWeDo .differentApproach {
+	padding: 2rem;
 }
+
+.whatWeDo .differentApproach .bulbImage {
+	text-align: right;
+	margin-bottom: 2rem;
+}
+
 .whatWeDo .differentApproach div {
-  flex:1;
+	flex: 1;
 }
 
 .whatWeDo .differentApproach h2::after {
@@ -352,13 +360,14 @@ main {
 	margin-top: 1rem;
 	font-weight: 900;
 }
-.whatWeDo .differentApproach h2{
-	text-align:left;
+
+.whatWeDo .differentApproach h2 {
+	text-align: left;
 }
 
-
 .whatWeDo .offerHeader {
-	margin-top: 2rem !important;
+	padding: 2rem;
+	margin-top: 2rem;
 	margin-bottom: 4rem !important;
 }
 
@@ -428,8 +437,7 @@ main {
 	font-weight: 900;
 }
 
-
-#portfolio .projectList {
+#portfolio {
 	padding: 2rem;
 }
 
@@ -449,39 +457,22 @@ main {
 	height: 250px;
 }
 
-#pricing .whatsIncluded {
-	text-align: center;
-}
-
-#pricing .whatsIncluded li {
-	margin-bottom: .5rem;
-}
-
-#pricing .whatsIncluded li::before {
-	font-family: "Font Awesome 5 Free";
-	content: "\f058";
-	display: inline;
-	padding-right: 3px;
-	color: #1488CC;
-	margin-top: 1rem;
-	font-weight: 900;
-}
-
 #pricing .startNow {
-  /* Must be 100% off the screen size, but currently inherits the max width off its parent, cappedd at 1200px*/
-  align-items: center;
+	/* Must be 100% off the screen size, but currently inherits the max width off its parent, cappedd at 1200px*/
+	align-items: center;
 	background: #0c39ae;
-  color:white;
-  display:flex;
+	color: white;
+	display: flex;
 	margin: auto;
 	margin-top: 4rem;
-  max-width:initial !important;
+	max-width: initial !important;
 	padding: 2rem;
 	text-align: left;
 }
+
 #pricing .startNow div {
-  flex:1;
-  text-align:right;
+	flex: 1;
+	text-align: right;
 }
 
 #pricing .startNow h2 {
@@ -500,7 +491,7 @@ main {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 19px;
-  font-weight:700;
+	font-weight: 700;
 	letter-spacing: 2px;
 }
 
@@ -522,6 +513,7 @@ footer h2 {
 }
 
 footer h3 {
+	color: white;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -658,6 +650,18 @@ footer li {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
+	.whatWeDo .differentApproach {
+		display: flex;
+	}
+	.whatWeDo .differentApproach img {
+		margin-right: 2rem;
+	}
+	.whatWeDo .differentApproach div {
+		flex: 1;
+	}
+	.whatWeDo .offerHeader h2 {
+		text-align: center;
+	}
 	.whatWeDo .parent {
 		max-width: inherit;
 		margin: auto;
@@ -667,6 +671,9 @@ footer li {
 		max-width: 40%;
 		margin: 0 auto;
 		margin-bottom: var(--marginSeperators);
+	}
+	#portfolio div h2 {
+		text-align:center;
 	}
 	#pricing {
 		max-width: 1200px;
