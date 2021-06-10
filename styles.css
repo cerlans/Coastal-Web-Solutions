@@ -159,7 +159,7 @@ nav i {
 }
 
 header {
-	padding-bottom: 4rem;
+	padding-bottom: 2rem;
 }
 
 header .heroText {
@@ -542,7 +542,12 @@ footer li {
 /*
 SERVICES PAGE IN THE HTML
  */
-
+ header .serviceHeader {
+	text-align:center;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	margin-top:1rem;
+ }
 #doneDifferent {
 	max-width: 450px;
 	margin: 0 auto;
