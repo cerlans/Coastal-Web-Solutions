@@ -1,10 +1,10 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: sans-serif,Arial, Helvetica, sans-serif;
 	line-height: 1.7;
 }
 
@@ -342,8 +342,17 @@ main {
 
 #portfolio {
 	padding: 2rem;
+	margin:auto;
 }
-
+#portfolio .portfolioHeader {
+max-width:660px;
+margin: 0 auto;
+text-align: left;
+padding:2rem;
+}
+#portfolio .projectList {
+		margin-top:4rem !important;
+}
 #portfolio .projectList .project {
 	margin-bottom: var(--marginSeperators);
 	padding: 1.4rem;
@@ -363,6 +372,7 @@ main {
 #cards {
 	color: black;
 	text-align: center;
+
 	padding: 2rem;
 }
 
@@ -621,6 +631,19 @@ header .serviceHeader {
 		flex-basis: 50%;
 		margin-bottom: var(--marginSeperators)
 	}
+	.differentApproach .imageLearnMore {
+		text-align: center;
+	}
+		.differentApproach .imageLearnMore .subHeaders {
+		text-align: center;
+	}
+	.subHeaders {
+		text-align:center;
+	}
+	#portFolio .portfolioHeader {
+		text-align:center;
+	}
+ 
 	#portfolio .projectList {
 		display: flex;
 		flex-wrap: wrap;
@@ -658,6 +681,7 @@ header .serviceHeader {
 	}
 }
 
+	
 @media (min-width:961px) {
 	.whatWeDo {
 		max-width: 960px;
