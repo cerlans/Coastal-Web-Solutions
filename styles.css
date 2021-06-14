@@ -613,7 +613,57 @@ header .serviceHeader {
 	margin-bottom: 2rem;
 	color: #646464;
 }
-
+/* CONTACT PAGE AND CONTACT FORM STYLING */
+.contactImage {
+	padding:2rem;
+	margin-bottom: var(--marginSeperators);
+}
+.formParent {
+  padding:1rem;
+	margin-bottom:var(--marginSeperators);
+}
+.formParent h2 span {
+  color:#1488CC;
+}
+#fs-frm {
+  padding:1.4rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
+}
+fieldset {
+  border:none;
+  
+}
+label {
+  display:block;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+input {
+  display:block;
+  margin-bottom:.5rem;
+  padding:.5rem;
+  width:100%;
+}
+textarea{
+  width:100%;
+}
+#submitButton {
+  margin-top:2rem;
+  background: #1488CC;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2B32B2, #1488CC);
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 @media (min-width:574px) {
 	header nav {
 		padding: 2rem;
