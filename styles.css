@@ -48,8 +48,9 @@ ul {
 }
 
 #hiddenMenu {
+	display:none;
 	height: 100%;
-	width: 30%;
+  width:30%;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -84,7 +85,9 @@ ul {
 #hiddenMenu li:hover {
 	color: #00c3ff;
 }
-
+#hiddenMenu i {
+	pointer-events: none;
+}
 
 /*Generic h2 header class*/
 
@@ -228,15 +231,6 @@ main {
 	margin: 0 auto;
 }
 
-
-/*
-.whatWeDo .differentApproach {
-	text-align: left;
-  display:flex;
-  align-items:center;
-}
-*/
-
 .whatWeDo .differentApproach {
 	padding: 2rem;
 }
@@ -316,7 +310,13 @@ main {
 	color: #1488cc;
 	margin-bottom: .5rem;
 }
-
+.item span {
+	color:#1488cc;
+	font-weight:700;
+}
+.item p {
+	margin-bottom:1rem;
+}
 .aboutUs {
 	background: #1488CC;
 	/* fallback for old browsers */
@@ -504,6 +504,7 @@ padding:2rem;
 }
 
 #pricing .startNow h2 {
+	color:#483C32 ;
 	font-size: 1.875rem;
 	line-height: 2.25rem;
 }
@@ -527,7 +528,7 @@ padding:2rem;
 	display: inline-block;
 	font-size: 19px;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 footer {
@@ -578,7 +579,7 @@ header .serviceHeader {
 	text-align: center;
 	font-size: 2.25rem;
 	line-height: 2.5rem;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 
 #doneDifferent {
