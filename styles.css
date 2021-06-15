@@ -100,7 +100,7 @@ ul {
 }
 
 .subHeaders span {
-	color: #00bef7;
+	color: #1488CC;
 }
 
 .genericButton {
@@ -152,7 +152,7 @@ nav div {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	text-align: right;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 nav .logoText {
@@ -249,7 +249,7 @@ main {
 	content: "\f0eb";
 	display: block;
 	padding-right: 3px;
-	color:  #00bef7;
+	color:  #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
@@ -277,7 +277,7 @@ main {
 	content: "\f5fc";
 	display: block;
 	padding-right: 3px;
-	color:  #00bef7;
+	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
@@ -339,7 +339,7 @@ main {
 	content: "\f518";
 	display: block;
 	padding-right: 3px;
-	color:  #00bef7;
+	color:  #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
@@ -622,16 +622,23 @@ header .serviceHeader {
 	border:1px solid red;
 	padding:2rem;
 }
+.contactLinks i {
+	font-size:1.4rem;
+	display:inline-block;
+}
+
 .formParent {
   padding:1rem;
 	margin-bottom:var(--marginSeperators);
+
 }
 .formParent h2 span {
   color:#1488CC;
 }
 #fs-frm {
+	margin-top:var(--marginSeperators);
   padding:1.4rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 0.5rem;
 }
 fieldset {
@@ -651,6 +658,7 @@ input {
 }
 textarea{
   width:100%;
+	resize: none;
 }
 #submitButton {
   margin-top:2rem;
