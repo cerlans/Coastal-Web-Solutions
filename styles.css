@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: sans-serif,Arial, Helvetica, sans-serif;
+	font-family: sans-serif, Arial, Helvetica, sans-serif;
 	line-height: 1.7;
 }
 
@@ -22,8 +21,6 @@ p {
 :root {
 	--marginSeperators: 2rem;
 }
-
-
 
 img {
 	max-width: 100%;
@@ -48,9 +45,9 @@ ul {
 }
 
 #hiddenMenu {
-	display:none;
+	display: none;
 	height: 100%;
-  width:30%;
+	width: 30%;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -85,9 +82,11 @@ ul {
 #hiddenMenu li:hover {
 	color: #00c3ff;
 }
+
 #hiddenMenu i {
 	pointer-events: none;
 }
+
 
 /*Generic h2 header class*/
 
@@ -248,7 +247,7 @@ main {
 	content: "\f0eb";
 	display: block;
 	padding-right: 3px;
-	color:  #1488CC;
+	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
@@ -262,13 +261,15 @@ main {
 	margin-top: 2rem;
 	margin-bottom: 4rem !important;
 }
+
 .whatWeDo .offerHeader p {
-	max-width:630px;
-	margin:auto;
+	max-width: 630px;
+	margin: auto;
 }
+
 .whatWeDo .imageLearnMore p {
-	max-width:660px;
-	margin:auto;
+	max-width: 660px;
+	margin: auto;
 }
 
 .whatWeDo h2::after {
@@ -309,13 +310,16 @@ main {
 	color: #1488cc;
 	margin-bottom: .5rem;
 }
+
 .item span {
-	color:#1488cc;
-	font-weight:700;
+	color: #1488cc;
+	font-weight: 700;
 }
+
 .item p {
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
+
 .aboutUs {
 	background: #1488CC;
 	/* fallback for old browsers */
@@ -338,24 +342,27 @@ main {
 	content: "\f518";
 	display: block;
 	padding-right: 3px;
-	color:  #1488CC;
+	color: #1488CC;
 	margin-top: 1rem;
 	font-weight: 900;
 }
 
 #portfolio {
 	padding: 2rem;
-	margin:auto;
+	margin: auto;
 }
+
 #portfolio .portfolioHeader {
-max-width:660px;
-margin: 0 auto;
-text-align: left;
-padding:2rem;
+	max-width: 660px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 2rem;
 }
+
 #portfolio .projectList {
-		margin-top:4rem !important;
+	margin-top: 4rem !important;
 }
+
 #portfolio .projectList .project {
 	margin-bottom: var(--marginSeperators);
 	padding: 1.4rem;
@@ -375,16 +382,18 @@ padding:2rem;
 #cards {
 	color: black;
 	text-align: center;
-
 	padding: 2rem;
 }
+
 #cards p {
 	max-width: 400px;
 	margin: auto;
 }
-#cards .md-Wrap{
-	margin-top:var(--marginSeperators);
+
+#cards .md-Wrap {
+	margin-top: var(--marginSeperators);
 }
+
 #cards .pricingHeader h2 {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -502,20 +511,21 @@ padding:2rem;
 	display: block;
 	margin: auto;
 	margin-top: 4rem;
-	margin-bottom:2rem;
+	margin-bottom: 2rem;
 	max-width: initial !important;
 	padding: 2rem;
 	text-align: left;
 }
 
 #pricing .startNow h2 {
-	
 	font-size: 1.875rem;
 	line-height: 2.25rem;
 }
+
 #pricing .startNow span {
-		color: #00bef7;
+	color: #00bef7;
 }
+
 #pricing .startNow button {
 	margin-top: var(--marginSeperators);
 	background: #1488CC;
@@ -524,7 +534,7 @@ padding:2rem;
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border:1px solid #1488CC;
+	border: 1px solid #1488CC;
 	border-radius: 3rem;
 	color: white;
 	cursor: pointer;
@@ -574,31 +584,35 @@ footer li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+
+
 /* ABOUT page in he HTML!!!!!*/
 
 .bulletPoints {
-	color:#1488CC;
+	color: #1488CC;
 	text-align: center;
-
 }
+
 .bulletPoints div {
-	max-width:400px;
+	max-width: 400px;
 	margin: auto;
-}
-.bulletPoints img {
-	width:70px;
-	height:70px;
-	margin-bottom:var(--marginSeperators);
-}
-.bulletPoints h3{
-margin-bottom: var(--marginSeperators);
-color:black;
 }
 
-.bulletPoints p{
-	max-width:800px;
+.bulletPoints img {
+	width: 70px;
+	height: 70px;
+	margin-bottom: var(--marginSeperators);
+}
+
+.bulletPoints h3 {
+	margin-bottom: var(--marginSeperators);
+	color: black;
+}
+
+.bulletPoints p {
+	max-width: 800px;
 	margin: auto;
-margin-bottom: var(--marginSeperators);
+	margin-bottom: var(--marginSeperators);
 }
 
 
@@ -621,7 +635,7 @@ header .serviceHeader {
 
 #doneDifferent .imageContainer {
 	text-align: center;
-	padding:2rem;
+	padding: 2rem;
 }
 
 #doneDifferent h2 {
@@ -632,7 +646,6 @@ header .serviceHeader {
 
 #doneDifferent .descriptionParent {
 	padding: 1rem;
-
 }
 
 #doneDifferent .description {
@@ -645,74 +658,85 @@ header .serviceHeader {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	color: #646464;
-	
 }
+
+
 /* CONTACT PAGE AND CONTACT FORM STYLING */
+
 .contact {
-	max-width:600px;
+	max-width: 600px;
 	margin: auto;
 }
+
 .contactImage {
-	padding:4rem;
+	padding: 4rem;
 	margin-bottom: var(--marginSeperators);
 }
-.contactLinks {
-	border:1px solid red;
-	padding:2rem;
-}
-.contactLinks i {
-	font-size:1.4rem;
-	display:inline-block;
-}
-.formParent {
-  padding:1rem;
-	margin-bottom:var(--marginSeperators);
 
+.contactLinks {
+	border: 1px solid red;
+	padding: 2rem;
 }
+
+.contactLinks i {
+	font-size: 1.4rem;
+	display: inline-block;
+}
+
+.formParent {
+	padding: 1rem;
+	margin-bottom: var(--marginSeperators);
+}
+
 .formParent h2 span {
-  color:#1488CC;
+	color: #1488CC;
 }
+
 #fs-frm {
-	margin-top:var(--marginSeperators);
-  padding:1.4rem;
- 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 0.5rem;
+	margin-top: var(--marginSeperators);
+	padding: 1.4rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 0.5rem;
 }
+
 fieldset {
-  border:none;
-  
+	border: none;
 }
+
 label {
-  display:block;
-  margin-top:1rem;
-  margin-bottom:1rem;
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
+
 input {
-  display:block;
-  margin-bottom:.5rem;
-  padding:.5rem;
-  width:100%;
+	display: block;
+	margin-bottom: .5rem;
+	padding: .5rem;
+	width: 100%;
 }
-textarea{
-  width:100%;
+
+textarea {
+	width: 100%;
 	resize: none;
 }
+
 #submitButton {
-  margin-top:2rem;
-  background: #1488CC;
+	margin-top: 2rem;
+	background: #1488CC;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
-  
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
+
 @media (min-width:574px) {
 	header nav {
 		padding: 2rem;
@@ -739,16 +763,15 @@ textarea{
 	.differentApproach .imageLearnMore {
 		text-align: center;
 	}
-		.differentApproach .imageLearnMore .subHeaders {
+	.differentApproach .imageLearnMore .subHeaders {
 		text-align: center;
 	}
 	.subHeaders {
-		text-align:center;
+		text-align: center;
 	}
 	#portFolio .portfolioHeader {
-		text-align:center;
+		text-align: center;
 	}
- 
 	#portfolio .projectList {
 		display: flex;
 		flex-wrap: wrap;
@@ -771,15 +794,15 @@ textarea{
 		padding: 1rem;
 	}
 	#pricing .startNow {
-		display:flex;
+		display: flex;
 	}
 	#pricing .startNow div {
-		flex:1;
+		flex: 1;
 	}
-	#pricing .startNow div:nth-child(1){
+	#pricing .startNow div:nth-child(1) {
 		text-align: left;
 	}
-	#pricing .startNow div:nth-child(2){
+	#pricing .startNow div:nth-child(2) {
 		text-align: right;
 	}
 	footer .footerFlex {
@@ -797,11 +820,10 @@ textarea{
 		padding-right: 2rem;
 	}
 	#doneDifferent {
-		max-width:800px;
+		max-width: 800px;
 	}
 }
 
-	
 @media (min-width:961px) {
 	.whatWeDo {
 		max-width: 960px;
@@ -821,16 +843,13 @@ textarea{
 		max-width: 960px;
 		margin: 0 auto;
 	}
-
-
 	/* CONTACT US PAGE IN THE HTML */
-
 	.contact {
-		display:flex;
-		max-width:1300px;
+		display: flex;
+		max-width: 1300px;
 	}
 	.contact div {
-		flex:1;
+		flex: 1;
 	}
 }
 
@@ -858,7 +877,7 @@ textarea{
 	}
 	#desktopMenu {
 		display: block;
-		flex:initial;
+		flex: initial;
 	}
 	#desktopMenu ul {
 		display: flex;
@@ -876,7 +895,7 @@ textarea{
 	.whatWeDo .differentApproach img {
 		margin-right: 2rem;
 	}
-	.whatWeDo .imageLearnMore p{
+	.whatWeDo .imageLearnMore p {
 		text-align: left;
 		margin-bottom: var(--marginSeperators);
 	}
@@ -917,11 +936,11 @@ textarea{
 	/* ABOUT US PAGE */
 	#doneDifferent .bulletPoints {
 		margin-top: 4rem;
-		display:flex;
-}
+		display: flex;
+	}
 	#doneDifferent .bulletPoints div {
-		padding:1rem;
-}
+		padding: 1rem;
+	}
 	/* SERVICES PAGE */
 	#doneDifferent {
 		max-width: 1300px;
