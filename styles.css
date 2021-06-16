@@ -378,7 +378,13 @@ padding:2rem;
 
 	padding: 2rem;
 }
-
+#cards p {
+	max-width: 400px;
+	margin: auto;
+}
+#cards .md-Wrap{
+	margin-top:var(--marginSeperators);
+}
 #cards .pricingHeader h2 {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -390,7 +396,7 @@ padding:2rem;
 #cards .singleContainer {
 	margin-top: var(--marginSeperators);
 	background: white;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 	border-bottom: 4px solid #1488CC;
 	color: black;
 	line-height: 1.6;
@@ -503,7 +509,7 @@ padding:2rem;
 }
 
 #pricing .startNow h2 {
-	color:#483C32 ;
+	
 	font-size: 1.875rem;
 	line-height: 2.25rem;
 }
@@ -642,8 +648,12 @@ header .serviceHeader {
 	
 }
 /* CONTACT PAGE AND CONTACT FORM STYLING */
+.contact {
+	max-width:600px;
+	margin: auto;
+}
 .contactImage {
-	padding:2rem;
+	padding:4rem;
 	margin-bottom: var(--marginSeperators);
 }
 .contactLinks {
@@ -811,6 +821,17 @@ textarea{
 		max-width: 960px;
 		margin: 0 auto;
 	}
+
+
+	/* CONTACT US PAGE IN THE HTML */
+
+	.contact {
+		display:flex;
+		max-width:1300px;
+	}
+	.contact div {
+		flex:1;
+	}
 }
 
 @media (min-width:1025px) {
@@ -885,7 +906,7 @@ textarea{
 	#cards .md-Wrap {
 		display: flex;
 		max-width: 1200px;
-		margin: 0 auto;
+		text-align: center;
 	}
 	footer .footerFlex {
 		max-width: 1200px;
