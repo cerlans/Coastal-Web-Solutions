@@ -111,7 +111,6 @@ ul {
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2B32B2, #1488CC);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border-radius: 5rem;
 	cursor: pointer;
 	border: none;
 	color: white;
@@ -569,6 +568,32 @@ footer li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+/* ABOUT page in he HTML!!!!!*/
+
+.bulletPoints {
+	color:#1488CC;
+	text-align: center;
+
+}
+.bulletPoints div {
+	max-width:400px;
+	margin: auto;
+}
+.bulletPoints img {
+	width:70px;
+	height:70px;
+	margin-bottom:var(--marginSeperators);
+}
+.bulletPoints h3{
+margin-bottom: var(--marginSeperators);
+color:black;
+}
+
+.bulletPoints p{
+	max-width:800px;
+	margin: auto;
+margin-bottom: var(--marginSeperators);
+}
 
 
 /*
@@ -583,13 +608,14 @@ header .serviceHeader {
 }
 
 #doneDifferent {
-	max-width: 450px;
+	max-width: 380px;
 	margin: 0 auto;
 	margin-top: 2rem;
 }
 
 #doneDifferent .imageContainer {
 	text-align: center;
+	padding:2rem;
 }
 
 #doneDifferent h2 {
@@ -600,6 +626,7 @@ header .serviceHeader {
 
 #doneDifferent .descriptionParent {
 	padding: 1rem;
+
 }
 
 #doneDifferent .description {
@@ -612,6 +639,7 @@ header .serviceHeader {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	color: #646464;
+	
 }
 /* CONTACT PAGE AND CONTACT FORM STYLING */
 .contactImage {
@@ -626,7 +654,6 @@ header .serviceHeader {
 	font-size:1.4rem;
 	display:inline-block;
 }
-
 .formParent {
   padding:1rem;
 	margin-bottom:var(--marginSeperators);
@@ -759,6 +786,9 @@ textarea{
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
+	#doneDifferent {
+		max-width:800px;
+	}
 }
 
 	
@@ -825,6 +855,10 @@ textarea{
 	.whatWeDo .differentApproach img {
 		margin-right: 2rem;
 	}
+	.whatWeDo .imageLearnMore p{
+		text-align: left;
+		margin-bottom: var(--marginSeperators);
+	}
 	.whatWeDo .differentApproach div {
 		flex: 1;
 	}
@@ -859,6 +893,14 @@ textarea{
 	footer .footerFlex div {
 		flex: 1;
 	}
+	/* ABOUT US PAGE */
+	#doneDifferent .bulletPoints {
+		margin-top: 4rem;
+		display:flex;
+}
+	#doneDifferent .bulletPoints div {
+		padding:1rem;
+}
 	/* SERVICES PAGE */
 	#doneDifferent {
 		max-width: 1300px;
