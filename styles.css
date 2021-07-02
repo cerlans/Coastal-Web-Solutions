@@ -91,10 +91,11 @@ ul {
 /*Generic h2 header class*/
 
 .subHeaders {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
+	font-size: 2.75rem;
+	line-height: 1;
 	font-weight: 700;
 	text-align: left;
+	text-transform: uppercase;
 	margin-bottom: var(--marginSeperators);
 }
 
@@ -119,6 +120,12 @@ ul {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
+	transition: 0.3s;
+}
+.genericButton:hover{
+	background:white;
+	color:#1488CC;
+	border:1px solid #1488CC;
 }
 
 header {
@@ -364,7 +371,9 @@ main {
 #portfolio .projectList {
 	margin-top: 4rem !important;
 }
-
+#portfolio .projectList p {
+	margin-top:1rem;
+}
 #portfolio .projectList .project {
 	margin-bottom: var(--marginSeperators);
 	padding: 1.4rem;
