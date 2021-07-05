@@ -855,6 +855,25 @@ textarea {
 	}
 }
 
+#seoList {
+
+	color: #646464;
+	padding:.5rem;
+}
+#seoList li {
+	margin-bottom:1rem;
+}
+#seoList ul li::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f058";
+	display: inline-block;
+	margin-right: 1rem;
+	color: #1488CC;
+	margin-top: 1rem;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
 @media (min-width:961px) {
 	.whatWeDo {
 		max-width: 960px;
